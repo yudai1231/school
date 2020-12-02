@@ -49,16 +49,22 @@
 
 .menu_bar ul li a:hover {
   opacity: 0.5;
+  background-color: gray;
+}
+
+.menu_bar ul li:hover {
+  background-color: gray;
 }
 
 .manth {
   display: flex;
   text-align: center;
   justify-content: space-around;
+  display: wrap;
 }
 
 .sentence {
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   padding: 20px;
 }
 
@@ -67,6 +73,7 @@
   border-bottom: 1px solid;
 }
 
+<<<<<<< HEAD
 .b_title {
   border-bottom: 1px double;
   margin: 50px auto;
@@ -175,4 +182,30 @@
 
 .footer .footer_bottom .info a {
   color: black;
+=======
+.menu_bar .m_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.space {
+  height: 800px;
+}
+
+@media only screen and (max-width: 375px) {
+  .manth {
+    flex-direction: column;
+  }
+  .menu_bar ul li {
+    padding: 10px 0 10px 0;
+  }
+  .wrap-video .text {
+    top: 50%;
+    left: 50%;
+  }
+  .wrap-video .text p {
+    font-size: 20px;
+  }
+>>>>>>> 9509fca41e29b1c85489e1ded45f2c29278dee75
 }
