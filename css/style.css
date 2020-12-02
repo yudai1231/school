@@ -29,6 +29,7 @@
   color: white;
   padding: 30px;
   letter-spacing: 10px;
+  font-family: cursive;
 }
 
 .menu_bar ul {
@@ -52,4 +53,16 @@
 
 .manth {
   display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.sentence {
+  letter-spacing: 10px;
+  padding: 20px;
+}
+
+.title {
+  padding: 40px 0 20px 0;
+  border-bottom: 1px solid;
 }
