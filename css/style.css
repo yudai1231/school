@@ -55,6 +55,7 @@
   display: flex;
   text-align: center;
   justify-content: space-around;
+  display: wrap;
 }
 
 .sentence {
@@ -65,4 +66,20 @@
 .title {
   padding: 40px 0 20px 0;
   border-bottom: 1px solid;
+}
+
+@media only screen and (max-width: 375px) {
+  .manth {
+    flex-direction: column;
+  }
+  .menu_bar ul li {
+    padding: 10px 0 10px 0;
+  }
+  .wrap-video .text {
+    top: 50%;
+    left: 50%;
+  }
+  .wrap-video .text p {
+    font-size: 20px;
+  }
 }
