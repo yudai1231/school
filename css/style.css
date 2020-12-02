@@ -73,7 +73,16 @@
   border-bottom: 1px solid;
 }
 
-<<<<<<< HEAD
+.menu_bar .m_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.space {
+  height: 800px;
+}
+
 .b_title {
   border-bottom: 1px double;
   margin: 50px auto;
@@ -113,13 +122,13 @@
 
 .contact {
   margin: 10px;
-  text-align: center;
   border-bottom: 1px double;
 }
 
 .contents {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .contents p {
@@ -182,15 +191,6 @@
 
 .footer .footer_bottom .info a {
   color: black;
-=======
-.menu_bar .m_fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.space {
-  height: 800px;
 }
 
 @media only screen and (max-width: 375px) {
@@ -207,5 +207,4 @@
   .wrap-video .text p {
     font-size: 20px;
   }
->>>>>>> 9509fca41e29b1c85489e1ded45f2c29278dee75
 }
