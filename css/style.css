@@ -31,6 +31,25 @@
   letter-spacing: 10px;
 }
 
-.kaki {
-  margin-left: auto;
+.menu_bar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu_bar ul li {
+  cursor: pointer;
+  padding: 30px;
+}
+
+.menu_bar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu_bar ul li a:hover {
+  opacity: 0.5;
+}
+
+.manth {
+  display: flex;
 }
