@@ -11,7 +11,7 @@
 
 .wrap-video .text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -28,6 +28,7 @@
   font-weight: bold;
   color: white;
   padding: 30px;
+  letter-spacing: 10px;
 }
 
 .kaki {
