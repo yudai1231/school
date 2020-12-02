@@ -49,6 +49,11 @@
 
 .menu_bar ul li a:hover {
   opacity: 0.5;
+  background-color: gray;
+}
+
+.menu_bar ul li:hover {
+  background-color: gray;
 }
 
 .manth {
@@ -59,13 +64,19 @@
 }
 
 .sentence {
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   padding: 20px;
 }
 
 .title {
   padding: 40px 0 20px 0;
   border-bottom: 1px solid;
+}
+
+.menu_bar .m_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 @media only screen and (max-width: 375px) {
