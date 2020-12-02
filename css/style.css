@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .wrap-video {
   position: relative;
+  background-color: black;
 }
 
 .wrap-video video {
@@ -16,6 +17,10 @@
   transform: translate(-50%, -50%);
   /*上下左右中央寄せ*/
   text-align: center;
+}
+
+.menu_bar {
+  background-color: black;
 }
 
 .wrap-video .text p {
