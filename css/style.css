@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .wrap-video {
   position: relative;
+  background-color: black;
 }
 
 .wrap-video video {
@@ -18,9 +19,32 @@
   text-align: center;
 }
 
+.menu_bar {
+  background-color: black;
+}
+
 .wrap-video .text p {
   font-size: 30px;
   font-weight: bold;
   color: white;
   padding: 30px;
+}
+
+.menu_bar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu_bar ul li {
+  cursor: pointer;
+  padding: 30px;
+}
+
+.menu_bar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu_bar ul li a:hover {
+  opacity: 0.5;
 }
