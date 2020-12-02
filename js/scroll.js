@@ -3,9 +3,9 @@ var navHeight = jQuery( '.menu_bar' ).outerHeight(); // グローバルメニュ
 jQuery( window ).on( 'scroll', function() {
   if ( jQuery( this ).scrollTop() > navPos ) {
     jQuery( 'body' ).css( 'padding-top', navHeight );
-    jQuery( '.menu_bar' ).addClass( 'm_fixed' );
+    jQuery( '.menu_bar' ).addClass( '.m_fixed' );
   } else {
     jQuery( 'body' ).css( 'padding-top', 0 );
-    jQuery( '.menu_bar' ).removeClass( 'm_fixed' );
+    jQuery( '.menu_bar' ).removeClass( '.m_fixed' );
   }
 });

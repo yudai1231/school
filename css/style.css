@@ -79,6 +79,10 @@
   left: 0;
 }
 
+.space {
+  height: 800px;
+}
+
 @media only screen and (max-width: 375px) {
   .manth {
     flex-direction: column;
