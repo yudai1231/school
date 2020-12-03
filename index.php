@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- fontawesome -->
@@ -21,7 +21,7 @@
     <p>COFFEE & HOSTEL</p>
   </div>
   
-  <video src="video/sample-video.mp4" muted autoplay loop></video>
+  <video src="<?php echo get_template_directory_uri(); ?>/video/sample-video.mp4" muted autoplay loop></video>
   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/TIqDj8zhfa0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 </div>
@@ -88,9 +88,9 @@
  <div>
    <h4 class="b_title">ブログ</h4>
   <ul class="b_list">
-    <li> <img src="img/s_IMG_3902.jpg"></li>
-    <li> <img src="img/top_1000.jpg"></li>
-    <li> <img src="img/slider_009.jpg"></li>
+    <li> <img src="<?php echo get_template_directory_uri(); ?>/img/s_IMG_3902.jpg"></li>
+    <li> <img src="<?php echo get_template_directory_uri(); ?>/img/top_1000.jpg"></li>
+    <li> <img src="<?php echo get_template_directory_uri(); ?>/img/slider_009.jpg"></li>
   </ul>
   <div class="contents">
     <div class="form">
@@ -183,12 +183,12 @@
 
 <!-- under終了 -->
 </body>
-<script src="under.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>under.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/scroll.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>js/scroll.js"></script>
 </html>
